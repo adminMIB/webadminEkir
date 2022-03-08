@@ -1,0 +1,1 @@
+<label style="margin-top:8px;width:100%" class="{{ isset($class) ? $class : '' }}" @isset($attributes) @foreach($attributes as $key=>$attr) {{ $key }}="{{ $attr }}" @endforeach @endif>{!! $inp['value'] !!}</label>

@@ -1,0 +1,1 @@
+<a href="{{ $route }}" class="btn btn-success btn-sm md-btn-flat">{{ $caption }}</a>

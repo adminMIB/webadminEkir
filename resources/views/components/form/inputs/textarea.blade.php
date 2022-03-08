@@ -1,0 +1,1 @@
+<textarea type="{{ $type }}" name="{{ isset($name) ? $name : 'name[]' }}" class="form-control {{ isset($class) ? $class : '' }}" {{ isset($required) ? 'required' : '' }} placeholder="{{ isset($placeholder) ? $placeholder : $label }}" @isset($attributes) @foreach($attributes as $key=>$attr) {{ $key }}="{{ $attr }}" @endforeach @endif>{{ $value }}</textarea>
